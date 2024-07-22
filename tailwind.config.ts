@@ -9,12 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "hero-pattern": "url('/images/hero-bg.svg')",
+      },
+      colors: {
+        primary: "#7843E9",
+        "overlay-white": "rgba(245, 245, 245, 0.8)",
+        "custom-gray": "rgba(153, 153, 153, 0.2)",
+      },
+      fontFamily: {
+        sourceSans: ["source_sans_proregular", "sans-serif"],
+        sourceSansBold: ["sourceSansBold", "sans-serif"],
       },
     },
   },
   plugins: [],
 };
+
 export default config;
