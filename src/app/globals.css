@@ -4,7 +4,7 @@
 
 @layer base {
   @font-face {
-    font-family: "source_sans_proregular";
+    font-family: "SourceSansPro-Regular";
     src: url("../../public/font/sourcesanspro-regular-webfont.woff2")
         format("woff2"),
       url("../../public/font/sourcesanspro-regular-webfont.woff") format("woff");
@@ -12,12 +12,10 @@
     font-style: normal;
   }
   @font-face {
-    font-family: "source_sans_pro_bold";
-    src: url("../../public/font/sourcesanspro-bold-webfont.woff2")
-        format("woff2"),
-      url("../../public/font/sourcesanspro-bold-webfont.woff") format("woff");
+    font-family: "SourceSansPro-Bold";
+    src: url("/font/sourcesanspro-bold.woff2") format("woff2");
     font-weight: bold;
-    font-style: bold;
+    font-style: normal;
   }
 }
 

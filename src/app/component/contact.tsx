@@ -6,13 +6,12 @@ const Contact = () => {
 
       <div className="relative flex flex-col items-center justify-around z-20">
         {/* Contact Heading  */}
-        <div className="flex flex-col items-center space-y-7 w-5/6 ">
-          <h1 className="text-4xl font-sourceSansBold  font-bold tracking-wider mt-32">
+        <div className="flex flex-col items-center space-y-7 w-5/6 mt-32">
+          <h1 className="text-4xl font-sourceSansBold  font-bold tracking-wider ">
             CONTACT
           </h1>
           <p className="border-2 border-primary w-8 rounded-lg text-3xl"></p>
-
-          <p className="text-slate-600 text-xl text-center max-w-[50rem]">
+          <p className="text-[#555555] text-[21px] font-medium text-center block leading-8 max-w-[50rem]">
             Feel free to Contact me by submitting the form below and I will get
             back to you as soon as possible
           </p>

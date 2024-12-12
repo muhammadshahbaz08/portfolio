@@ -17,8 +17,8 @@ const config: Config = {
         "custom-gray": "rgba(153, 153, 153, 0.2)",
       },
       fontFamily: {
-        sourceSans: ["source_sans_proregular", "sans-serif"],
-        sourceSansBold: ["sourceSansBold", "sans-serif"],
+        sourceSans: ["SourceSansPro-Regular", "sans-serif"],
+        sourceSansBold: ["SourceSansPro-Bold", "sans-serif"],
       },
     },
   },

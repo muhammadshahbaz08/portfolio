@@ -1,16 +1,22 @@
 import Image from "next/image";
-import { FaGithub, FaNpm, FaYoutube } from "react-icons/fa";
+import {
+  FaExternalLinkAlt,
+  FaGithub,
+  FaLink,
+  FaNpm,
+  FaYoutube,
+} from "react-icons/fa";
 import projects from "../constants/projects";
 const Projects = () => {
   return (
     <section className="font-sourceSans px-7 py-28" id="projects">
       {/* Projects Heading  */}
       <div className="flex flex-col items-center mx-auto space-y-5 max-w-3xl ">
-        <h1 className="text-4xl font-sourceSansBold  font-bold tracking-wider ">
+        <h1 className="text-[42px] text-[#111111] font-sourceSansBold  font-bold tracking-wider">
           PROJECTS
         </h1>
         <p className="border-2 border-primary w-8 rounded-2xl "></p>
-        <p className="text-slate-600 text-xl text-center block ">
+        <p className="text-[#555555] text-[21px] font-medium text-center block leading-8">
           Discover the various projects I've worked on, showcasing my
           development skills and the technologies I've mastered
         </p>
@@ -65,7 +71,7 @@ const Projects = () => {
                           rel="noopener noreferrer"
                           className="hover:text-cyan-500 mt-2"
                         >
-                          | LIVE LINK
+                          <FaExternalLinkAlt size={23} />
                         </a>
                       )}
                     </h2>

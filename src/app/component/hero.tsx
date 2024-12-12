@@ -10,11 +10,11 @@ const Hero = () => {
       <div className="relative h-full font-sourceSans flex flex-col items-center justify-center z-20">
         {/* Hero Content */}
         <div className="flex flex-col text-center space-y-6 sm:space-y-8 ">
-          <h1 className="text-5xl md:text-6xl font-sourceSansBold font-extrabold tracking-wider">
+          <h1 className="text-5xl text-[#111111] sm:text-5xl  md:text-[70px] md:leading-[80px]  font-sourceSansBold  font-extrabold tracking-wider">
             HEY, I'M SHAHBAZ
           </h1>
-          <p className="mx-auto text-[22px] font-medium leading-10 flex-wrap w-3/5">
-            From the database to the browser, I ensure every part of the web
+          <p className="mx-auto text-[#333333] text-[23px]  md:leading-10 flex-wrap w-3/5">
+            From the Database to the Browser, I ensure every part of the web
             application works together smoothly.
           </p>
           {/* Button */}
